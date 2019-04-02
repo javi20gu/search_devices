@@ -1,0 +1,2 @@
+PySide2==5.12.2
+pythonping==1.0.3

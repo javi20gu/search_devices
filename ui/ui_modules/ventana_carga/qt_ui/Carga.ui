@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>122</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>656</width>
+    <height>122</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>656</width>
+    <height>122</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Buscando...</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialog {
+background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="text">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>21</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(77, 77, 77)</string>
+       </property>
+       <property name="text">
+        <string>Buscando Equipos en la Red...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="proceso">
+       <property name="styleSheet">
+        <string notr="true">#proceso::chunk {
+	background-color: rgb(136, 136, 136)
+}</string>
+       </property>
+       <property name="maximum">
+        <number>0</number>
+       </property>
+       <property name="value">
+        <number>-1</number>
+       </property>
+       <property name="textVisible">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
